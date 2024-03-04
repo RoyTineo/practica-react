@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Testimonios from './componentes/Testimonios'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='contenedor-principal'>
+        <h1>Carnavales Ayacuchanos 2024</h1>
+        <Testimonios
+         nombre='Susan Flores'
+         imagen='Susan Flores'
+         lugar='Ayacuchana'
+         descripcion='Los ayacuchanos son personas trabajadoras, con una gran fe religiosa y un gran deseo de salir adelante. También son conocidos por su alegría y jolgorio durante los carnavales.'
+        />
+        <Testimonios
+         nombre='Susan Flores'
+         imagen='Susan Flores'
+         lugar='Ayacuchana'
+         descripcion='Los ayacuchanos son personas trabajadoras, con una gran fe religiosa y un gran deseo de salir adelante. También son conocidos por su alegría y jolgorio durante los carnavales.'
+        />
+        <Testimonios
+         nombre='Susan Flores'
+         imagen='Susan Flores'
+         lugar='Ayacuchana'
+         descripcion='Los ayacuchanos son personas trabajadoras, con una gran fe religiosa y un gran deseo de salir adelante. También son conocidos por su alegría y jolgorio durante los carnavales.'
+        />
+        <Testimonios
+         nombre='Susan Flores'
+         imagen='Susan Flores'
+         lugar='Ayacuchana'
+         descripcion='Los ayacuchanos son personas trabajadoras, con una gran fe religiosa y un gran deseo de salir adelante. También son conocidos por su alegría y jolgorio durante los carnavales.'
+        />
+      </div>
+
+
     </div>
   );
 }
